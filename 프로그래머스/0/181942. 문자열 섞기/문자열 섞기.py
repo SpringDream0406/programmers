@@ -1,5 +1,5 @@
 def solution(str1, str2):
-    answer = ""
-    for i in range(len(str1)):
-        answer += str1[i] + str2[i]
-    return answer
+    res = ""
+    for s1, s2 in zip(str1, str2):
+        res += s1 + s2
+    return res
