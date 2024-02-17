@@ -1,4 +1,2 @@
 def solution(a, b):
-    a = str(a)
-    b = str(b)
-    return int(a+b) if a+b > b+a else int(b+a)
+    return int(max(f"{a}{b}", f"{b}{a}"))
