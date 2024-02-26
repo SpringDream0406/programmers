@@ -5,5 +5,5 @@ def solution(n):
             answer += i
     else :
         for i in range (2, n+1, 2):
-            answer += i*i
+            answer += i**2
     return answer
