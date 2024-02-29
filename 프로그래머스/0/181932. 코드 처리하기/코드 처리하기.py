@@ -9,7 +9,7 @@ def solution(code):
                     ret += code[idx]
             else:
                 mode = 1
-        else:  # mode == 1
+        else:
             if code[idx] != "1":
                 if idx % 2 == 1:
                     ret += code[idx]
